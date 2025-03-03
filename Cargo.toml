@@ -1,0 +1,15 @@
+[package]
+name = "Instagram_Rust_Splitter_UI"
+version = "0.1.0"
+edition = "2024"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slint = "1.8.0"
+image = "0.25.5"
+rayon = "1.10.0"
+rfd = "0.15.2"
+
+[build-dependencies]
+slint-build = "1.8.0"
